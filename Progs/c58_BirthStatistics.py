@@ -48,10 +48,9 @@ print(prices_list("Cookie", 0.79))
 shelf = ["Magic Mirror", "empty", "Cookie", "Book with Magic Tricks", "empty"]
 
 def add_shelf(article):
-    # Here comes your code
-    # You can access the variable "shelf" directly from within the function
-    # This does not have to be passed as a parameter, because it exists
-    # outside of the function already.
+    for i in range (0,len(shelf)):
+        if shelf[i] == "empty":
+            shelf[i] = article
     print("Here's where your code goes")
 
 add_shelf("Rubik's Cube")
