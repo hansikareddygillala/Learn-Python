@@ -4,9 +4,15 @@ for line in file:
     print(line.strip())
 
 file.close()
+
+print()
+print()
+print()
+print()
+
 #Or you can write
 
-with open("read.tst","r") as file:
+with open("read.txt","r") as file:
     for line in file:
         print(line.strip())
 

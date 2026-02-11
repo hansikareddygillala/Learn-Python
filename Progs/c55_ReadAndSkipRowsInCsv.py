@@ -8,7 +8,7 @@ with open("file.csv") as file:
             print(data)
             print(data[2])
         """
-
+#Prints who have more than 90 rupees (it gives their whole data)
         if int(data[1]) < 90:
             continue
         print(data)
