@@ -51,7 +51,6 @@ def add_shelf(article):
     for i in range (0,len(shelf)):
         if shelf[i] == "empty":
             shelf[i] = article
-    print("Here's where your code goes")
 
 add_shelf("Rubik's Cube")
 print(shelf)
